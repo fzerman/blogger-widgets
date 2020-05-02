@@ -1,0 +1,26 @@
+<b:widget id='Image1' locked='false' title='' type='Image'>
+  <b:widget-settings>
+    <b:widget-setting name='displayUrl'>http://2.bp.blogspot.com/-J5f5EjbWqIc/XqxbkS4WNUI/AAAAAAAACbI/5i0OiZqRwZw8Cl0U_1mCWDW0F87fu-Q2gCK4BGAYYCw/s1600/cf-min.png</b:widget-setting>
+    <b:widget-setting name='displayHeight'>512</b:widget-setting>
+    <b:widget-setting name='sectionWidth'>752</b:widget-setting>
+    <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
+    <b:widget-setting name='displayWidth'>512</b:widget-setting>
+    <b:widget-setting name='link'/>
+    <b:widget-setting name='caption'/>
+  </b:widget-settings>
+  <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+      <b:tag cond='data:link' expr:href='data:link' name='a'>
+        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+      </b:tag>
+      <br/>
+      <b:if cond='data:caption'>
+        <span class='caption'><data:caption/></span>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
