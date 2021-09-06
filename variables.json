@@ -1,0 +1,348 @@
+{
+    "body": {
+        "text": {
+            "font": {
+                "_description": "Font",
+                "_value": "15px Roboto, sans-serif"
+            },
+            "color": {
+                "_description": "Color",
+                "_value": "#4e4e4e"
+            }
+        },
+        "background": {
+            "_description": "Background",
+            "_value": "#000000 url(https://themes.googleusercontent.com/image?id=1i_daHMzkzBNcV-v7uOhVYquMt20FCMbbTFxcHAARidZ6PYKs5-KeUa4Gm0erJ5vHVpot) repeat-x scroll top center /* Credit: enot-poloskun (http://www.istockphoto.com/portfolio/enot-poloskun?platform=blogger) */",
+            "color": {
+                "_description": "Body background color",
+                "_value": "#e7e7e7"
+            },
+            "blur": {
+                "_description": "Background blur",
+                "_value": "0px"
+            }
+        },
+        "link": {
+            "color": {
+                "_description": "Link color",
+                "_value": "#d90c0c"
+            },
+            "visited": {
+                "color": {
+                    "_description": "Visited link color",
+                    "_value": "#d90c0c"
+                }
+            },
+            "hover": {
+                "color": {
+                    "_description": "Link Hover Color",
+                    "_value": "#d90c0c"
+                }
+            }
+        }
+    },
+    "posts": {
+        "background": {
+            "color": {
+                "_description": "Post background color",
+                "_value": "#ffffff"
+            }
+        },
+        "title": {
+            "color": {
+                "_description": "Post title color",
+                "_value": "#000000"
+            },
+            "font": {
+                "_description": "Post title font",
+                "_value": "bold 22px Roboto, sans-serif"
+            }
+        },
+        "stream": {
+            "title": {
+                "font": {
+                    "_description": "Post title stream font",
+                    "_value": "bold 30px Roboto, sans-serif"
+                }
+            }
+        },
+        "text": {
+            "font": {
+                "_description": "Post text font",
+                "_value": "15px Roboto, sans-serif"
+            },
+            "color": {
+                "_description": "Post text color",
+                "_value": "#4e4e4e"
+            }
+        },
+        "byline": {
+            "color": {
+                "_description": "Post byline color",
+                "_value": "rgba(0,0,0,0.537)"
+            }
+        },
+        "icons": {
+            "color": {
+                "_description": "Post icons color",
+                "_value": "#414141"
+            }
+        },
+        "navigation": {
+            "link": {
+                "color": {
+                    "_description": "Post navigation links color",
+                    "_value": "#d90c0c"
+                },
+                "visited": {
+                    "color": {
+                        "_description": "Post navigation links visited color",
+                        "_value": "#d90c0c"
+                    }
+                },
+                "hover": {
+                    "color": {
+                        "_description": "Post navigations links hover color",
+                        "_value": "#d90c0c"
+                    }
+                }
+            }
+        }
+    },
+    "blog": {
+        "title": {
+            "font": {
+                "_description": "Font",
+                "_value": "bold 45px Roboto, sans-serif"
+            },
+            "color": {
+                "_description": "Color",
+                "_value": "#ffffff"
+            }
+        }
+    },
+    "header": {
+        "icons": {
+            "color": {
+                "_description": "Background icons color",
+                "_value": "#ffffff"
+            }
+        }
+    },
+    "tabs": {
+        "font": {
+            "_description": "Font",
+            "_value": "700 normal $(size) $(family)"
+        },
+        "color": {
+            "_description": "Text color",
+            "_value": "#c2c2c2"
+        },
+        "selected": {
+            "color": {
+                "_description": "Selected color",
+                "_value": "#ffffff"
+            }
+        },
+        "overflow": {
+            "background": {
+                "color": {
+                    "_description": "Popup background color",
+                    "_value": "#ffffff"
+                }
+            },
+            "color": {
+                "_description": "Popup text color",
+                "_value": "#4e4e4e"
+            },
+            "selected": {
+                "color": {
+                    "_description": "Popup selected color",
+                    "_value": "#000000"
+                }
+            }
+        }
+    },
+    "blockquote": {
+        "font": {
+            "_description": "Blockquote font",
+            "_value": "italic 300 15px Roboto, sans-serif"
+        },
+        "color": {
+            "_description": "Blockquote color",
+            "_value": "#000000"
+        }
+    },
+    "search": {
+        "input": {
+            "color": {
+                "_description": "Input color",
+                "_value": "#ffffff"
+            },
+            "font": {
+                "_description": "Input font",
+                "_value": "16px Roboto, sans-serif"
+            }
+        },
+        "placeholder": {
+            "color": {
+                "_description": "Placeholder text color",
+                "_value": "#ffffff"
+            }
+        }
+    },
+    "sharing": {
+        "background": {
+            "color": {
+                "_description": "Sharing background color",
+                "_value": "#ffffff"
+            }
+        },
+        "text": {
+            "color": {
+                "_description": "Sharing text color",
+                "_value": "#000000"
+            }
+        },
+        "icons": {
+            "color": {
+                "_description": "Sharing icons color",
+                "_value": "#000000"
+            }
+        }
+    },
+    "popularposts": {
+        "background": {
+            "color": {
+                "_description": "Popular post background color",
+                "_value": "#e7e7e7"
+            }
+        },
+        "byline": {
+            "color": {
+                "_description": "Popular post byline color",
+                "_value": "rgba(0,0,0,0.537)"
+            }
+        },
+        "title": {
+            "color": {
+                "_description": "Popular post title color",
+                "_value": "#000000"
+            }
+        },
+        "text": {
+            "color": {
+                "_description": "Popular post text color",
+                "_value": "#4e4e4e"
+            }
+        },
+        "link": {
+            "color": {
+                "_description": "Popular post link color",
+                "_value": "#d90c0c"
+            }
+        }
+    },
+    "sidebar": {
+        "backgroundColorTop": {
+            "_description": "Background color (Top)",
+            "_value": "#ffffff"
+        },
+        "backgroundColorTopHD": {
+            "_description": "Background color (Top) - HD",
+            "_value": "#f1f1f1"
+        },
+        "backgroundColorBottom": {
+            "_description": "Background color (Bottom)",
+            "_value": "#ffffff"
+        },
+        "separator": {
+            "color": {
+                "_description": "Separator color",
+                "_value": "#c2c2c2"
+            }
+        },
+        "icons": {
+            "color": {
+                "_description": "Sidebar icons color",
+                "_value": "#414141"
+            }
+        },
+        "width": {
+            "_description": "Sidebar width",
+            "_value": "284px"
+        }
+    },
+    "widget": {
+        "title": {
+            "color": {
+                "_description": "Gadget title color",
+                "_value": "#000000"
+            }
+        }
+    },
+    "profile": {
+        "title": {
+            "color": {
+                "_description": "Profile title color",
+                "_value": "rgba(0,0,0,0.518)"
+            }
+        },
+        "text": {
+            "color": {
+                "_description": "Profile text color",
+                "_value": "rgba(0,0,0,0.537)"
+            }
+        },
+        "link": {
+            "color": {
+                "_description": "Profile link color",
+                "_value": "#000000"
+            }
+        }
+    },
+    "labels": {
+        "text": {
+            "color": {
+                "_description": "Label text color",
+                "_value": "rgba(0,0,0,0.537)"
+            }
+        },
+        "background": {
+            "color": {
+                "_description": "Label background color",
+                "_value": "#f1f1f1"
+            }
+        }
+    },
+    "attribution": {
+        "text": {
+            "color": {
+                "_description": "Attribution text color",
+                "_value": "#4e4e4e"
+            }
+        },
+        "link": {
+            "color": {
+                "_description": "Attribution link color",
+                "_value": "#d90c0c"
+            }
+        },
+        "icon": {
+            "color": {
+                "_description": "Attribution icon color",
+                "_value": "#414141"
+            }
+        }
+    },
+    "content": {
+        "width": {
+            "_description": "Content width",
+            "_value": "922px"
+        },
+        "margin": {
+            "_description": "Content margin",
+            "_value": "117px"
+        }
+    }
+}
