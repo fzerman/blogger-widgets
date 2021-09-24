@@ -1,0 +1,6 @@
+@mixin widget($type){
+    .widget .#{$type}{
+        @content;
+    } 
+}
+

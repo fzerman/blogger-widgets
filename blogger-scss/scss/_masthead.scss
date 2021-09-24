@@ -1,0 +1,25 @@
+body{
+    overflow-x: clip;
+}
+#header{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    #navbar{
+        z-index: 999;
+        background: 0 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    #masthead{
+        background: linear-gradient(to right bottom, #324a5e 15%, #537b9c);
+    }
+
+    #masthead,#masthead .masthead{
+        height: 100vh;
+    }
+}

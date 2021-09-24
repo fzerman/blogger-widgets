@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>1-1-1 Layout</title>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="../../dist/css/blogger.min.css">
+    </head>
+
+    <body>
+
+        <header id="header">
+            <nav class="navbar" id="navbar">
+                <div class="container">
+                    <nav class="sd-nav-menu">
+                        <div class="sd-menu-header">
+                            <a href="#" class="sd-nav-action">
+                                Blogger
+                            </a>
+                            <div class="sd-desktop-menu">
+
+                            </div>
+                            <button class="sd-menu-toggle">
+                                <i class="material-icons">menu</i>
+                            </button>
+                        </div>
+                        <div class="sd-mobile-menu">
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+
+
+
+
+
+            <div id="masthead">
+                <div class="container masthead">
+                    <div class="row masthead">
+                        <div class="col-12 col-md-6 my-auto text-center text-light">
+                            <h2 class="mb-4 text-uppercase">DAHA İYİ BİR WEB İÇİN</h2>
+                            <p class="mb-4">Web deneyiminizi iyileştirmek için gelişmiş ürünlerimiz ve araçlarımız ile
+                                sorunlarınıza özel çözümler üretiyoruz</p>
+                            <a class="btn btn-outline-light rounded-pill" href="#started">Ayrıntıları Gör</a>
+                        </div>
+                        <div class="col-12 col-md-6 my-auto">
+                            <img class="img-fluid rounded" src="https://cover.js.org/images/hero-section.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+        <section class="container section-padding">
+            <div class="row">
+                <h3 class="text-center">Blog Posts</h3>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="/test.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                </div>
+              
+            </div>
+        </section>
+
+        <footer class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dicta.
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dicta.
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dicta.
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dicta.
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="../../dist/js/menu.prod.js"></script>
+
+        <script>
+            let list = [
+                {
+                    title: "Home",
+                    url: "#"
+                },
+                {
+                    title: "About",
+                    url: "#about"
+                },
+                {
+                    title: "Projects",
+                    url: "#projects"
+                },
+                {
+                    title: "_Themes",
+                    url: "#themes"
+                },
+                {
+                    title: "__Blogger",
+                    url: "#blogger"
+                },
+                {
+                    title: "__Blogger",
+                    url: "#blogger"
+                },
+                {
+                    title: "_Templates",
+                    url: "#templates"
+                },
+                {
+                    title: "Contact",
+                    url: "#contact"
+                }
+            ];
+            jQuery(document).ready(function () {
+                let $ = jQuery;
+                $(".sd-desktop-menu").addMenu(list);
+                $(".sd-mobile-menu").addMenu(list);
+                $().mobileMenuInit();
+            });
+
+        </script>
+    </body>
+
+</html>

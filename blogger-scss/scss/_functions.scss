@@ -1,0 +1,9 @@
+
+
+@function getColor($color){
+    @return map.get($colors,$color);
+}
+
+@function container($slug){
+    @return map.get($containers,$slug);   
+}
